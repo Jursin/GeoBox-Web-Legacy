@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoBox 2.0 - GeoGebra演示神器</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/GeoBox2.0.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta name="color-scheme" content="light dark">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo-container">
+                <img src="images/GeoBox2.0.ico" alt="GeoBox Logo" class="logo">
+                <h1>GeoBox <span class="version">2.0</span></h1>
+            </div>
+            <p class="tagline">GeoGebra 演示神器，保护您的 GeoGebra 源文件版权</p>
+        </header>
+
+        <main class="main-content">
+            <div class="two-column-layout">
+                <div class="preview-column">
+                    <div class="preview-section">
+                        <div class="image-slider">
+                            <img src="images/preview.png" alt="GeoBox 2.0 预览" class="preview-image active">
+                            <img src="images/sample.png" alt="GeoBox 2.0 示例" class="preview-image">
+                        </div>
+                        <div class="slider-controls">
+                            <button class="slider-btn prev-btn" aria-label="上一张">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <button class="slider-btn next-btn" aria-label="下一张">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="usage-tips">
+                        <h3>使用技巧</h3>
+                        <ul>
+                            <li>将编辑好的 GeoGebra 文件调整好窗口大小再保存，打包编译后将尽量保持窗口宽高比自适应不同分辨率，建议使用 <span class="highlight">16:9</span> 的宽高比例</li>
+                            <li>尽量将体积小的 GeoGebra 文件拖放到最前面，以提高打包文件的打开速度</li>
+                            <ul>
+                                <li>打包编译：
+                                <ul>
+                                <li>EXE可执行文件(推荐)：生成独立运行的单一可执行文件，无需安装任何 GeoGebra 环境，但有被防火墙和杀毒软件误报的风险</li>
+                                <li>在线网页文件：生成单一网页文件，可在浏览器中打开（需联网），适合在线分享使用</li>
+                                <li>离线网页文件：生成单一网页文件，需<a href="https://www.xhdds.cn/geobox/offline/geobox2_0_offline.rar">下载2.0版本离线包</a>（注：将离线包解压缩，再将导出的 HTML 文件放到解压缩后的 geobox2_0_offline 文件夹内打开）</li>
+                            </ul>
+                            </li>
+                            </ul>
+                            <li>播放打包文件时可点击工具栏中的页码跳转到指定页面，点击 <span class="highlight">橡皮</span> 按钮可以进入擦除状态</li>
+                            <li>播放时还支持激光电子笔和键盘 <span class="highlight">PgUp</span> 和 <span class="highlight">PgDn</span> 键前后翻页</li>
+                            <li>Windows 7 和部分前期 Windows 10 系统需要安装 <a href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/0d3598be-3322-4e98-91e5-cc38333e5f49/MicrosoftEdgeWebView2RuntimeInstallerX64.exe">WebView2 Runtime</a> 才能正常使用</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="features-column">
+                    <div class="features-section">
+                        <div class="feature-row">
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-bolt"></i>
+                                </div>
+                                <h3>轻量便捷</h3>
+                                <p>无需安装，直接运行，无需联网，随时随地使用</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-file-alt"></i>
+                                </div>
+                                <h3>多文件支持</h3>
+                                <p>支持添加多个文件，多页显示，教学演示更高效</p>
+                            </div>
+                        </div>
+                        <div class="feature-row">
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-expand"></i>
+                                </div>
+                                <h3>同步缩放</h3>
+                                <p>完美适配各种分辨率，缩放无失真</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-chalkboard"></i>
+                                </div>
+                                <h3>PPT整合</h3>
+                                <p>支持悬浮功能，与PPT无缝配合，演示效果更佳</p>
+                            </div>
+                        </div>
+                        <div class="feature-row">
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-pencil-alt"></i>
+                                </div>
+                                <h3>涂鸦书写</h3>
+                                <p>内置涂鸦功能，方便实时标注和讲解</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <h3>安全可靠</h3>
+                                <p>已解决病毒误报问题，使用更安心</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="links-section">
+                        <h3>友情链接</h3>
+                        <div class="links-container">
+                            <a href="https://www.geogebra.org/" target="_blank" rel="noopener" class="link-btn">
+                                <i class="fas fa-globe"></i> GeoGebra官网
+                            </a>
+                            <a href="https://www.geogebra.org/calculator" target="_blank" rel="noopener" class="link-btn">
+                                <i class="fas fa-laptop"></i> GeoGebra网页版
+                            </a>
+                            <a href="https://www.geogebra.org/download" target="_blank" rel="noopener" class="link-btn">
+                                <i class="fas fa-download"></i> GeoGebra下载
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="action-buttons">
+                        <a href="http://www.xhdds.cn/geobox/geobox.rar" class="download-btn">
+                            <i class="fas fa-download"></i> 立即下载
+                        </a>
+                        <a href="https://qm.qq.com/q/4BTuqKx9mM" class="qq-btn" target="_blank" rel="noopener">
+                            <i class="fab fa-qq"></i> QQ群 | 1025239875
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p class="copyright">© 代东升 | 2024-Until Now All Rights Reserved</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
