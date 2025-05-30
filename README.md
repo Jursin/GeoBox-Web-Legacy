@@ -4,7 +4,9 @@
 
 # GeoBox 2.0 - GeoGebra 演示神器
 
-GeoBox 2.0 是一款专为 GeoGebra 设计的演示工具，保护您的，GeoGebra 源文件版权，同时提供强大的演示功能。
+GeoBox 2.0 是一款专为 GeoGebra 设计的演示工具，保护您的 GeoGebra 源文件版权，同时提供强大的演示功能。
+
+作者：代东升老师
 
 </div>
 
