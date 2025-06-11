@@ -8,10 +8,10 @@ GeoBox 2.0 是一款专为 GeoGebra 设计的演示工具，保护您的 GeoGebr
 
 作者：代东升老师
 
+</div>
+
 > [!important]
 > 本仓库已存档，请前往[新网站仓库](https://github.com/Jursin/GeoBox-Web)
-
-</div>
 
 ## 功能特点
 
